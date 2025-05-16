@@ -19,7 +19,7 @@ const conversationHistory = {};
 
 module.exports = {
   name: 'ai',
-  description: 'Interact with Mocha AI using text queries and image analysis',
+  description: 'Interact with BZ BK using text queries and image analysis',
   author: 'Coffee',
 
   async execute(senderId, args, pageAccessToken, event) {
