@@ -87,7 +87,7 @@ module.exports = {
         }
 
         conversationHistory[senderId].push({ role: 'assistant', content: fullResponseText });
-        const formattedResponse = `💬 | 𝙼𝚘𝚌𝚑𝚊 𝙰𝚒\n・───────────・\n${fullResponseText}\n・──── >ᴗ< ────・`;
+        const formattedResponse = `🧛‍♂️ | BZ BK\n・───────────・\n${fullResponseText}\n・──── >ᴗ< ────・`;
 
         const messageChunks = chunkMessage(formattedResponse, 1900);
         for (const chunk of messageChunks) {
